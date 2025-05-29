@@ -1,22 +1,26 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15557 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
 Date: 2025-05-28T06:19:50Z
 
+
 COMMAND LINE ARGUMENTS:
-D:\UnityHub\Unity Hub\2022.3.51f1\6000.1.3f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.1.3f1-x86_64\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Project-Guthub/Game3DNangCaoSinhTon/Game3DASM
+C:/Users/Admin/OneDrive/Tài liệu/GitHub/Game3DNangCaoSinhTon/Game3DASM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+
 51058
+
 -job-worker-count
 5
 -background-job-worker-count
@@ -25,8 +29,8 @@ Logs/AssetImportWorker0.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Project-Guthub/Game3DNangCaoSinhTon/Game3DASM
-D:/Project-Guthub/Game3DNangCaoSinhTon/Game3DASM
+Successfully changed project path to: C:/Users/Admin/OneDrive/Tài liệu/GitHub/Game3DNangCaoSinhTon/Game3DASM
+C:/Users/Admin/OneDrive/Tài liệu/GitHub/Game3DNangCaoSinhTon/Game3DASM
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -62,12 +66,14 @@ D:/Project-Guthub/Game3DNangCaoSinhTon/Game3DASM
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+
 Player connection [25168]  Target information:
 
 Player connection [25168]  * "[IP] 172.16.118.221 [Port] 0 [Flags] 2 [Guid] 1075978050 [EditorId] 1075978050 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [25168] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [25168] Host joined alternative multi-casting on [225.0.0.222:34997]...
+
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,16 +85,20 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+
 Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.3f1 (f34db9734971)
-[Subsystems] Discovering subsystems at path D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project-Guthub/Game3DNangCaoSinhTon/Game3DASM/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/OneDrive/Tài liệu/GitHub/Game3DNangCaoSinhTon/Game3DASM/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:          NVIDIA
+
+
     VRAM:            5921 MB
     App VRAM Budget: 5153 MB
     Driver:          32.0.15.7652
@@ -110,11 +120,13 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.605 seconds
 Domain Reload Profiling: 1005ms
 	BeginReloadAssembly (142ms)
+
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (50ms)
@@ -136,6 +148,7 @@ Domain Reload Profiling: 1005ms
 			BeforeProcessingInitializeOnLoad (53ms)
 			ProcessInitializeOnLoadAttributes (114ms)
 			ProcessInitializeOnLoadMethodAttributes (54ms)
+
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,6 +157,7 @@ Domain Reload Profiling: 1005ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+
 - Loaded All Assemblies, in  0.630 seconds
 Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Native extension for Android target not found
@@ -152,8 +166,9 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.672 seconds
 Domain Reload Profiling: 1301ms
 	BeginReloadAssembly (155ms)
+
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (27ms)
@@ -204,13 +219,16 @@ Received Import Request.
   path: Assets/GiaoHao
   artifactKey: Guid(63461b2fe4701304ea8df24157fca35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/GiaoHao using Guid(63461b2fe4701304ea8df24157fca35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50254cf0a6bf3774a0c294d2177a00ae') in 0.0011348 seconds
+
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
+Received Import Reque ást.
+
   Time since last request: 5.147426 seconds.
   path: Assets/QuangHuy
   artifactKey: Guid(a3409c98e07e5e54387accad0f9dd156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/QuangHuy using Guid(a3409c98e07e5e54387accad0f9dd156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abec5f74b281125561d6378a42d87a07') in 0.0005483 seconds
+
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
