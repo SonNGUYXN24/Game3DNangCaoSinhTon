@@ -57,7 +57,10 @@
     <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Military\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerAudio.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
   </ItemGroup>
