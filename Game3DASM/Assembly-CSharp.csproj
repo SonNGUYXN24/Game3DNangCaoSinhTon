@@ -61,7 +61,31 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.3f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
+    <Compile Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Glass_PBR.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\GiaHao\TaiNguyen\Fantasy Skybox FREE\ReleaseNotes.txt" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\StarterAssets\license.txt" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1048,16 +1072,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
@@ -1126,6 +1150,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{1702D41C-77E6-66C4-863F-84F0CF4B5DD0}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
       <Project>{5CACB8EA-CA15-7BE5-0EEE-3264621D863C}</Project>
       <Name>Unity.InputSystem.ForUI</Name>
@@ -1142,9 +1170,17 @@
       <Project>{1A0DEE1D-7893-948C-ADEA-71031581357A}</Project>
       <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.Editor.csproj">
+      <Project>{9B173855-A80A-FCB9-83FB-8731157C2CC6}</Project>
+      <Name>Unity.TerrainTools.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{53332906-6EBD-649F-FFF5-A6C879123C93}</Project>
       <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.csproj">
+      <Project>{507DA5FF-57B3-5FC0-0295-CF93D1717239}</Project>
+      <Name>Unity.TerrainTools</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{ADB67C86-CAE3-0A26-F3D2-1EC92D167D2A}</Project>
@@ -1165,6 +1201,10 @@
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{6CA0C6E0-AA3D-AE60-4699-0A3B950EA5C9}</Project>
       <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PackageValidationSuite.Editor.Extension.csproj">
+      <Project>{1FF4F8C5-DBD7-5513-B4F3-B105FE04E3BA}</Project>
+      <Name>Unity.PackageValidationSuite.Editor.Extension</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Editor.csproj">
       <Project>{143922E4-F802-28EB-49C7-E05CC4901C53}</Project>
@@ -1198,6 +1238,10 @@
       <Project>{93D62E60-572C-65AB-4F9B-DA53601A8C8E}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{A739D012-60AD-7A9E-1735-04B27C4FFAC2}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{66F91DD4-3862-7A1D-83E5-6D871A14DB1A}</Project>
       <Name>Unity.Mathematics</Name>
@@ -1209,6 +1253,10 @@
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
       <Project>{9EE17C36-57E4-3C2E-690E-F24EFA586E49}</Project>
       <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PackageValidationSuite.Editor.csproj">
+      <Project>{137B5C15-E73B-2A4E-CE05-A906A75F4810}</Project>
+      <Name>Unity.PackageValidationSuite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{592934E1-0F23-979A-9C4B-5D317E562090}</Project>
