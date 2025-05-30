@@ -7,7 +7,7 @@ public class PlayerAudio : MonoBehaviour
     [SerializeField] private AudioSource runSource;
     [SerializeField] private AudioSource jumpSource;
 
-    [SerializeField] private PlayerMovement movement;
+    [SerializeField] private PlayerMove movement;
 
     private bool wasGroundedLastFrame = true;
 
