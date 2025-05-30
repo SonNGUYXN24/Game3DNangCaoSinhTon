@@ -265,8 +265,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\PendingChanges\Changelists\MoveToChangelistMenuBuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\PendingChanges\PendingChangesMultiColumnHeader.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\Diff\ChangeCategoryTreeViewItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\AssetOverlays\Cache\AssetStatusCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\_Deprecated\CollabMigration\MigrateCollabProject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\AssetOverlays\Cache\AssetStatusCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\Views\History\HistoryListView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\UI\DialogWithCheckBox.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Editor\UI\HandleMenuItem.cs" />

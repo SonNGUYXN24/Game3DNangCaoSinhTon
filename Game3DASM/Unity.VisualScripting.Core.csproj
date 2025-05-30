@@ -149,8 +149,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Graphs\MergedGraphElementCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Collections\NonNullableCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Unity\LudiqScriptableObject.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Reflection\Operators\LessThanHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Graphs\GraphsExceptionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Reflection\Operators\LessThanHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Reflection\Optimization\InstanceActionInvoker_5.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Reflection\Optimization\StaticActionInvoker_4.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Core\Ensure\EnsureThat.ValueTypes.cs" />
@@ -979,6 +979,10 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.APIComparison.Framework">
+      <HintPath>Library\PackageCache\com.unity.package-validation-suite@536239bd7458\Lib\Editor\Unity.APIComparison.Framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -987,12 +991,12 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    <Reference Include="log4net">
+      <HintPath>Library\PackageCache\com.unity.package-validation-suite@536239bd7458\Lib\Editor\log4net.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\log4netPlastic.dll</HintPath>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
@@ -1009,6 +1013,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
