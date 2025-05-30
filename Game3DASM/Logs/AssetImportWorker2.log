@@ -710,3 +710,582 @@ Received Import Request.
 Start importing Assets/BaoAn/Electric Torch/Prefab/Electric Torch HighPoly.prefab using Guid(f63e65675a6e1494f940b88d554ba138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9570d41e3354580dc57fb5503cc48941') in 0.1204933 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
 
+========================================================================
+Received Import Request.
+  Time since last request: 185.848040 seconds.
+  path: Assets/BaoAn/fire-sound-334130.mp3
+  artifactKey: Guid(7b38a2dbbdfa484418dc443824c4edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/fire-sound-334130.mp3 using Guid(7b38a2dbbdfa484418dc443824c4edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee1ca6f4ea19bd7447439e4d8e9231de') in 0.1057896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.993 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1929ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (454ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (250ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7695 unused Assets / (19.8 MB). Loaded Objects now: 8493.
+Memory consumption went from 238.7 MB to 218.9 MB.
+Total: 20.232600 ms (FindLiveObjects: 1.617600 ms CreateObjectMapping: 0.829600 ms MarkObjects: 7.652900 ms  DeleteObjects: 10.130400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 81.425165 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack
+  artifactKey: Guid(d5fe92bba22ec2e4496a68bc7d8176e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack using Guid(d5fe92bba22ec2e4496a68bc7d8176e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fd683272bb2d360f8e9edaf4bec3412') in 0.0116052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.011600 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Arrow_01.prefab
+  artifactKey: Guid(21391263d01948d4284a2876baaaa77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Arrow_01.prefab using Guid(21391263d01948d4284a2876baaaa77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f0e3d2de13efd5b2364b31fd08b575e') in 1.1706442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 336
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_01.prefab
+  artifactKey: Guid(9b5dc512ec347e34eaaae1f9cf497537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_01.prefab using Guid(9b5dc512ec347e34eaaae1f9cf497537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78d9c06cb7e6ca204e9a77be2e93da2c') in 0.0400654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_01.prefab
+  artifactKey: Guid(afe41d2fbd072d348ad8625254d99a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_01.prefab using Guid(afe41d2fbd072d348ad8625254d99a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a75d224252d39ef8140031ecde130e') in 0.0397183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_05.prefab
+  artifactKey: Guid(59e50f64e877bb046abee47059c573ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_05.prefab using Guid(59e50f64e877bb046abee47059c573ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b106d3c99d28faca7702de3b4a0796ac') in 0.0424007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Axe_01.prefab
+  artifactKey: Guid(8651053af2be0084e8b6858af168bd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Axe_01.prefab using Guid(8651053af2be0084e8b6858af168bd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c87014dffb6c0d4b04b4a5f9ff53f127') in 0.0355464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BoneKnife.prefab
+  artifactKey: Guid(660e163354191a843904a25ce373e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BoneKnife.prefab using Guid(660e163354191a843904a25ce373e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c7f090ce86bd9f6e32b783842a1736c') in 0.0332828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bed_01.prefab
+  artifactKey: Guid(a4b7404baf91446489d6e86a82075dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bed_01.prefab using Guid(a4b7404baf91446489d6e86a82075dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02f17190e7b4a8cd5cf8caaa5dd137ea') in 0.0306241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mask.prefab
+  artifactKey: Guid(655f14320808f7041ab4329e5980f66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mask.prefab using Guid(655f14320808f7041ab4329e5980f66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e237becc6d928f96eea8352b69a7cc10') in 0.0375359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_02.prefab
+  artifactKey: Guid(dc9c54e71fb8f4d488e594f285f68d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_02.prefab using Guid(dc9c54e71fb8f4d488e594f285f68d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fc6af6f20b41808dde5dc2c276f26a') in 0.0337238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Map_02.prefab
+  artifactKey: Guid(6536597fe6cdc064a85d80664ac24e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Map_02.prefab using Guid(6536597fe6cdc064a85d80664ac24e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ddc5e7dcdabd3f7929cfc2c6d7b63c6') in 0.0387072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Leather.prefab
+  artifactKey: Guid(3507cdaaddde90c4f9d635811d1351c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Leather.prefab using Guid(3507cdaaddde90c4f9d635811d1351c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec368c2f2874ccd2ebb4d9f08e45cc27') in 0.0366566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coin_01.prefab
+  artifactKey: Guid(7241fa4434b66ce4e93aad6ba8825c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Coin_01.prefab using Guid(7241fa4434b66ce4e93aad6ba8825c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9f20fad6d97164c75476efdfe197bdf') in 0.0335771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/LeatherPouch.prefab
+  artifactKey: Guid(8086eb5f7c6107541937dd0cae6461d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/LeatherPouch.prefab using Guid(8086eb5f7c6107541937dd0cae6461d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb329f2622acca15ac38f683ce86a687') in 0.0349096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_03.prefab
+  artifactKey: Guid(3ab46e5e3f50fd24593f3baf7404431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_03.prefab using Guid(3ab46e5e3f50fd24593f3baf7404431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0873ba7ede6c73e15f328c8ac587c61') in 0.0428726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flashlight_02.prefab
+  artifactKey: Guid(b7ed1131d01aa9544902f2f6211b9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Flashlight_02.prefab using Guid(b7ed1131d01aa9544902f2f6211b9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db2b2d5891c72bd2663e1f7600ace947') in 0.0357519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Hammer_02.prefab
+  artifactKey: Guid(582880a81be7ecd4eba55a2e6aa8eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Hammer_02.prefab using Guid(582880a81be7ecd4eba55a2e6aa8eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a83e1343b95fde0ee8bea4f09f2d9e41') in 0.0385966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_01.prefab
+  artifactKey: Guid(e732aecb3972c854b81680e72502678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_01.prefab using Guid(e732aecb3972c854b81680e72502678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d1d3fd0f7fee744b5dfb545e6022541') in 0.0309121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_02.prefab
+  artifactKey: Guid(da840f8de93098c458b7604bbcf97246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/CannedFood_02.prefab using Guid(da840f8de93098c458b7604bbcf97246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eb54c7e0234bca156754a8f0917877a') in 0.0425377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Fur.prefab
+  artifactKey: Guid(579712db7ee14be418dfe258e84a65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Fur.prefab using Guid(579712db7ee14be418dfe258e84a65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fab8e53bf92baed6c0ddabe5a580ea79') in 0.0358109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_02.prefab
+  artifactKey: Guid(f13d57e310fa31641a9c81974138ac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Lighter_02.prefab using Guid(f13d57e310fa31641a9c81974138ac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29894e4d4138af6cf0cb02383c5987a') in 0.0325678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bow_03.prefab
+  artifactKey: Guid(e45a9ca36b3206145897fdcc56264462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bow_03.prefab using Guid(e45a9ca36b3206145897fdcc56264462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f32e5d313f5754aae23caf7afd7aee8') in 0.0354961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GasTank.prefab
+  artifactKey: Guid(cf15801b74e1e314581fa5b6a116ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GasTank.prefab using Guid(cf15801b74e1e314581fa5b6a116ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f6327442a08154d4fa22dfcf2cc344') in 0.0381323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_02.prefab
+  artifactKey: Guid(0d70851a893b84a449eb97e2c4da4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingStick_02.prefab using Guid(0d70851a893b84a449eb97e2c4da4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deeae8dc85850317062a648b3bd075b9') in 0.0350674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Kettle.prefab
+  artifactKey: Guid(3271ca4cef459314b9ace2ef6960cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Kettle.prefab using Guid(3271ca4cef459314b9ace2ef6960cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b70d3fd3342e211185ab596cd93457dc') in 0.0422309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_03.prefab
+  artifactKey: Guid(39ef8424a7f79024fb7ebf2af4dbd6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_03.prefab using Guid(39ef8424a7f79024fb7ebf2af4dbd6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1ecd40a8e1b28e2f00e995ea609f574') in 0.0399469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingAxe.prefab
+  artifactKey: Guid(e6242bc9c52e73845b7e1c93908412be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/ClimbingAxe.prefab using Guid(e6242bc9c52e73845b7e1c93908412be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f176f3e2e7765a2dd0fa34fea8210f0c') in 0.0328457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_02.prefab
+  artifactKey: Guid(30af62b471bb24c41b0b6e654eaf067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BagBed_02.prefab using Guid(30af62b471bb24c41b0b6e654eaf067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0df4f79c956d60487377cfb84327f842') in 0.0514362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BonesCollection.prefab
+  artifactKey: Guid(a56459e6400f1b0449771ffe5fc25181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BonesCollection.prefab using Guid(a56459e6400f1b0449771ffe5fc25181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b794ae698f2264267bb676469674635') in 0.043874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Dynamite_02.prefab
+  artifactKey: Guid(61881e87f2da3ec429990a027c2e97a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Dynamite_02.prefab using Guid(61881e87f2da3ec429990a027c2e97a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7bcd6d90568cc101eaaf01b9ccbe940') in 0.0335485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BaseballBat_02.prefab
+  artifactKey: Guid(516d16b2a03ddf34b838f850adc49797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BaseballBat_02.prefab using Guid(516d16b2a03ddf34b838f850adc49797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c9f61bb5ed97c3000165e0632592e69') in 0.0400981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FlareGun.prefab
+  artifactKey: Guid(421626e2da5a32a46983faa1ab5a1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/FlareGun.prefab using Guid(421626e2da5a32a46983faa1ab5a1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '763b775f000704544158ffeee3922ebe') in 0.0408019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Axe_02.prefab
+  artifactKey: Guid(3d9976771a70fdb428f9d22363a55248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Axe_02.prefab using Guid(3d9976771a70fdb428f9d22363a55248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95d82bf229cb155ebc01218b0e34af79') in 0.0344561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_01.prefab
+  artifactKey: Guid(ed338126b14090f43a671b4ce8089579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Battery_01.prefab using Guid(ed338126b14090f43a671b4ce8089579) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7843772ab90e3d415fd657cf3814d9de') in 0.0392122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BoneArrow.prefab
+  artifactKey: Guid(991efb6acdd31f6468049f97799bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BoneArrow.prefab using Guid(991efb6acdd31f6468049f97799bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e7cd5425744df15ebec396d51041ff8') in 0.034872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bucket.prefab
+  artifactKey: Guid(c3d61c4a466475540943084710bc35ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Bucket.prefab using Guid(c3d61c4a466475540943084710bc35ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fdb89833f63dd3ceb507f3ccb762fcc') in 0.0476606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_04.prefab
+  artifactKey: Guid(ec9a026d8c5b2b74a89a796c102445b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Knife_04.prefab using Guid(ec9a026d8c5b2b74a89a796c102445b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '986921515e1fddc5fd00c18780ce2f64') in 0.0351949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_03.prefab
+  artifactKey: Guid(d27b73dcbd2a4014ba76c6a64e432f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/GlassBottle_03.prefab using Guid(d27b73dcbd2a4014ba76c6a64e432f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e8d48022bab4294867e837bcec0570a') in 0.0343962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BaseballBat_01.prefab
+  artifactKey: Guid(d29be6a54b6f49146898017ea976affb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/BaseballBat_01.prefab using Guid(d29be6a54b6f49146898017ea976affb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2f5918366892594b413a97c2030b645') in 0.0398689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Midicine_01.prefab
+  artifactKey: Guid(bab0af02c0368ab4eab1292d087f01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Midicine_01.prefab using Guid(bab0af02c0368ab4eab1292d087f01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efed1ff28e25d6486f21b922e349cb0e') in 0.0420356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Map_01.prefab
+  artifactKey: Guid(86e29605cb887d4489df79b439c5d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Map_01.prefab using Guid(86e29605cb887d4489df79b439c5d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f11742f4e5c54d93f0b32ee070da328') in 0.0428103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/HeadFlashlight.prefab
+  artifactKey: Guid(ee7cd833d752095418589589fa086b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/HeadFlashlight.prefab using Guid(ee7cd833d752095418589589fa086b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd63efa4392f8ebc13017eb7a5f4fea26') in 0.0309852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Boat_02.prefab
+  artifactKey: Guid(2e21da317abf0bb49aa59a49b0392189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Boat_02.prefab using Guid(2e21da317abf0bb49aa59a49b0392189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba6a165ed40c91edff22e6b85127c426') in 0.0377543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.189399 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Midicine_03.prefab
+  artifactKey: Guid(f9681f6619c8deb4680d09055c8b9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Midicine_03.prefab using Guid(f9681f6619c8deb4680d09055c8b9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7797850b6c5d327d0e12d024c8e18c0a') in 0.0497385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_05.prefab
+  artifactKey: Guid(5c52c8b940e4e6944a38c03ec96f9836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_05.prefab using Guid(5c52c8b940e4e6944a38c03ec96f9836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d954016f9ae0fb6b47aa75e098fa678') in 0.0426379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/MidKit_02.prefab
+  artifactKey: Guid(4d5e07dee71944a4e9b9824c34ba2af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/MidKit_02.prefab using Guid(4d5e07dee71944a4e9b9824c34ba2af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30846c07b93435f6e75b692102227f2') in 0.0429506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_01.prefab
+  artifactKey: Guid(a189e0a4a9a23e84cbaf8eff090b2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_01.prefab using Guid(a189e0a4a9a23e84cbaf8eff090b2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da362e0aa734c1e0f801ba3fb6a6fef') in 0.0369397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_06.prefab
+  artifactKey: Guid(41db4049e7988e44a875cf96695163f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/Mushroom_06.prefab using Guid(41db4049e7988e44a875cf96695163f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91618e34233f96be9391e0bb7be71db0') in 0.0348104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/MidicineBag_01.prefab
+  artifactKey: Guid(2aa1c1902ae29d842a0e496d9999c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Pandazole_Ultimate_Pack/Pandazole Survival Crafting Pack/Prefabs/MidicineBag_01.prefab using Guid(2aa1c1902ae29d842a0e496d9999c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6f2daed74a70b3901320a8323d06925') in 0.0358757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7689 unused Assets / (20.8 MB). Loaded Objects now: 8639.
+Memory consumption went from 244.7 MB to 223.9 MB.
+Total: 27.575400 ms (FindLiveObjects: 2.615900 ms CreateObjectMapping: 2.535900 ms MarkObjects: 11.633900 ms  DeleteObjects: 10.785500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.979 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.127 seconds
+Domain Reload Profiling: 14114ms
+	BeginReloadAssembly (2753ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (343ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (349ms)
+	RebuildCommonClasses (686ms)
+	RebuildNativeTypeToScriptingClass (69ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (4266ms)
+		LoadAssemblies (4403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1254ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (1135ms)
+			ResolveRequiredComponents (54ms)
+	FinalizeReload (6129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (75ms)
+			BeforeProcessingInitializeOnLoad (878ms)
+			ProcessInitializeOnLoadAttributes (3310ms)
+			ProcessInitializeOnLoadMethodAttributes (506ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7695 unused Assets / (20.0 MB). Loaded Objects now: 8516.
+Memory consumption went from 254.0 MB to 233.9 MB.
+Total: 41.638700 ms (FindLiveObjects: 6.897100 ms CreateObjectMapping: 4.751100 ms MarkObjects: 12.078500 ms  DeleteObjects: 17.908500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7687 unused Assets / (20.4 MB). Loaded Objects now: 8515.
+Memory consumption went from 265.0 MB to 244.6 MB.
+Total: 19.344600 ms (FindLiveObjects: 1.455000 ms CreateObjectMapping: 1.327300 ms MarkObjects: 7.860700 ms  DeleteObjects: 8.699800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.994 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling: 1879ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7694 unused Assets / (20.6 MB). Loaded Objects now: 8517.
+Memory consumption went from 276.0 MB to 255.4 MB.
+Total: 14.492000 ms (FindLiveObjects: 1.002200 ms CreateObjectMapping: 0.828500 ms MarkObjects: 5.746700 ms  DeleteObjects: 6.912900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
