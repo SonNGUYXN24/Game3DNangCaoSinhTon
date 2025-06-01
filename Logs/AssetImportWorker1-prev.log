@@ -1,22 +1,22 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-05-30T06:01:23Z
+Date: 2025-05-31T11:21:39Z
 
 COMMAND LINE ARGUMENTS:
-D:\UnityHub\Unity Hub\2022.3.51f1\6000.1.3f1\Editor\Unity.exe
+D:\6000.1.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Project-Guthub/Game3DNangCaoSinhTon
+D:/6000.0.42f1/Game3DNangCaoSinhTon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51193
+50135
 -job-worker-count
 5
 -background-job-worker-count
@@ -25,8 +25,8 @@ Logs/AssetImportWorker1.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Project-Guthub/Game3DNangCaoSinhTon
-D:/Project-Guthub/Game3DNangCaoSinhTon
+Successfully changed project path to: D:/6000.0.42f1/Game3DNangCaoSinhTon
+D:/6000.0.42f1/Game3DNangCaoSinhTon
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -62,12 +62,18 @@ D:/Project-Guthub/Game3DNangCaoSinhTon
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4484]  Target information:
+Player connection [24548]  Target information:
 
-Player connection [4484]  * "[IP] 172.16.70.117 [Port] 0 [Flags] 2 [Guid] 4092214273 [EditorId] 4092214273 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24548]  * "[IP] 26.27.202.181 [Port] 0 [Flags] 2 [Guid] 1658781914 [EditorId] 1658781914 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4484] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4484] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24548]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1658781914 [EditorId] 1658781914 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24548]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1658781914 [EditorId] 1658781914 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24548]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1658781914 [EditorId] 1658781914 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24548] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,11 +85,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 328.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.3f1 (f34db9734971)
-[Subsystems] Discovering subsystems at path D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project-Guthub/Game3DNangCaoSinhTon/Assets
+[Subsystems] Discovering subsystems at path D:/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/6000.0.42f1/Game3DNangCaoSinhTon/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
@@ -91,496 +97,190 @@ Direct3D:
     Vendor:          NVIDIA
     VRAM:            5921 MB
     App VRAM Budget: 5153 MB
-    Driver:          32.0.15.7652
+    Driver:          32.0.15.6614
 Initialize mono
-Mono path[0] = 'D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Mono path[0] = 'D:/6000.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/UnityHub/Unity Hub/2022.3.51f1/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001519 seconds.
-- Loaded All Assemblies, in  0.507 seconds
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 346 ms
+Register platform support module: D:/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.184188 seconds.
+- Loaded All Assemblies, in 65.403 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.910 seconds
-Domain Reload Profiling: 1416ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  1.427 seconds
+Domain Reload Profiling: 66831ms
+	BeginReloadAssembly (57781ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (196ms)
+		ReleaseScriptingObjects (19ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (2632ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (1341ms)
+	LoadAllAssembliesAndSetupDomain (3610ms)
+		LoadAssemblies (57728ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (3596ms)
+			TypeCache.Refresh (3592ms)
+				TypeCache.ScanAssembly (2513ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (910ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1429ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (840ms)
+		SetupLoadedEditorAssemblies (1227ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (481ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (176ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			InitializePlatformSupportModulesInManaged (181ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.219 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Native extension for Android target not found
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in 47.778 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 2330ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  3.272 seconds
+Domain Reload Profiling: 51043ms
+	BeginReloadAssembly (404ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (889ms)
-		LoadAssemblies (514ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (47189ms)
+		LoadAssemblies (44854ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (504ms)
-			TypeCache.Refresh (335ms)
-				TypeCache.ScanAssembly (309ms)
+		AnalyzeDomain (2602ms)
+			TypeCache.Refresh (2434ms)
+				TypeCache.ScanAssembly (2207ms)
 			BuildScriptInfoCaches (147ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1112ms)
+	FinalizeReload (3274ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (823ms)
+		SetupLoadedEditorAssemblies (1525ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (595ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1026ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (11ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (456ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 261 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6411 unused Assets / (7.0 MB). Loaded Objects now: 7157.
-Memory consumption went from 188.6 MB to 181.6 MB.
-Total: 11.931700 ms (FindLiveObjects: 1.112200 ms CreateObjectMapping: 0.644000 ms MarkObjects: 5.542300 ms  DeleteObjects: 4.630800 ms)
+Unloading 6412 unused Assets / (5.9 MB). Loaded Objects now: 7150.
+Memory consumption went from 181.9 MB to 176.0 MB.
+Total: 36.936700 ms (FindLiveObjects: 4.194100 ms CreateObjectMapping: 1.955200 ms MarkObjects: 20.725400 ms  DeleteObjects: 10.056000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4544.859841 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3f70f0364ded6a0e35bba7f5564b43') in 0.0595731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 1729.064049 seconds.
+  path: Assets/GiaHao/Scene
+  artifactKey: Guid(aeb6c369447bb614389848356abbd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GiaHao/Scene using Guid(aeb6c369447bb614389848356abbd3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c8ff4a4baab1c48866189e0482caba') in 0.0388235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
+  Time since last request: 0.000038 seconds.
   path: Assets/Readme.asset
   artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0052214 seconds
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.072458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6402 unused Assets / (5.5 MB). Loaded Objects now: 7162.
-Memory consumption went from 151.6 MB to 146.1 MB.
-Total: 9.614900 ms (FindLiveObjects: 1.217400 ms CreateObjectMapping: 0.933800 ms MarkObjects: 4.715400 ms  DeleteObjects: 2.746800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6403 unused Assets / (6.0 MB). Loaded Objects now: 7163.
-Memory consumption went from 156.4 MB to 150.4 MB.
-Total: 15.700900 ms (FindLiveObjects: 1.767100 ms CreateObjectMapping: 1.658800 ms MarkObjects: 7.515700 ms  DeleteObjects: 4.757300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6403 unused Assets / (6.2 MB). Loaded Objects now: 7163.
-Memory consumption went from 161.2 MB to 155.0 MB.
-Total: 12.029100 ms (FindLiveObjects: 1.024000 ms CreateObjectMapping: 0.919000 ms MarkObjects: 6.196100 ms  DeleteObjects: 3.888500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 352.835499 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Backpack1_Skin2.mat
-  artifactKey: Guid(a4a8d1cc9aa491b47b9b5881c72e8131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Backpack1_Skin2.mat using Guid(a4a8d1cc9aa491b47b9b5881c72e8131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08b643b1c80957517cd20b2ed42c4c59') in 6.4370183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_FPS_Hands1_Skin1.mat
-  artifactKey: Guid(a92c3a3369b862448a6861f1c2f9c5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_FPS_Hands1_Skin1.mat using Guid(a92c3a3369b862448a6861f1c2f9c5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c95bd61bd1341517fb3d3615095e7de') in 0.069998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin1.mat
-  artifactKey: Guid(9e2e0aa2d3552f44ca191a0594ed99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin1.mat using Guid(9e2e0aa2d3552f44ca191a0594ed99fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6f665494feae213aa5b3bc38772db90') in 0.0583036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Floor.mat
-  artifactKey: Guid(a7038745c94e79b49931d4bb0ca90eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Floor.mat using Guid(a7038745c94e79b49931d4bb0ca90eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba16da6b6bf4671a0f12aea8b3ae5312') in 0.0535772 seconds
+  Time since last request: 68.711009 seconds.
+  path: Assets/GiaHao/_TerrainAutoUpgrade/layer_Grass608c3929b87867c.terrainlayer
+  artifactKey: Guid(8a429449afc05c84dab3077b5c884e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GiaHao/_TerrainAutoUpgrade/layer_Grass608c3929b87867c.terrainlayer using Guid(8a429449afc05c84dab3077b5c884e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9526e814222fa2a276084b0292606238') in 0.1245895 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin3.mat
-  artifactKey: Guid(4069970779519534094e765126f96e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin3.mat using Guid(4069970779519534094e765126f96e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c814b568687d959a0f404200806d8a') in 0.0427096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005962 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin1.mat
-  artifactKey: Guid(69a7ae62ad9e47040b84931e37b8966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin1.mat using Guid(69a7ae62ad9e47040b84931e37b8966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14a029bb549b34ad3289c6d092abd5bb') in 0.0423909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin2.mat
-  artifactKey: Guid(0a330e6eee7c9d745b76b538da6b35c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Boots3_Skin2.mat using Guid(0a330e6eee7c9d745b76b538da6b35c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102be47c44868679a2ff1a6f59f11eaf') in 0.0425919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SOnNGUYXN/Military/Prefab/URP/Environment_URP.prefab
-  artifactKey: Guid(c1950778895ab564683b7f255fdaf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Prefab/URP/Environment_URP.prefab using Guid(c1950778895ab564683b7f255fdaf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f742021245b21aa1eec1d9f0a1c45e') in 0.0714944 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Pouches1_Skin1.mat
-  artifactKey: Guid(67185e5c94b5e1a4b8b70464ea42260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Pouches1_Skin1.mat using Guid(67185e5c94b5e1a4b8b70464ea42260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5646a80bba1299250f779dc1b852a7e4') in 0.0814591 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/SOnNGUYXN/Military/Prefab/URP/SK_Military_Survivalist (11).prefab
-  artifactKey: Guid(b3c640d5746cf8f45819f788fe67bc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Prefab/URP/SK_Military_Survivalist (11).prefab using Guid(b3c640d5746cf8f45819f788fe67bc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d03489aadf9580ede0973ff778b6547') in 0.5646442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 254
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/SOnNGUYXN/Military/Prefab/URP/SK_Military_Survivalist (12).prefab
-  artifactKey: Guid(ac23f03ab2778ad479d54a67552ff9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Prefab/URP/SK_Military_Survivalist (12).prefab using Guid(ac23f03ab2778ad479d54a67552ff9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac7175253d83499e815c6b111940049') in 0.4823283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 255
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Pants2_Skin3.mat
-  artifactKey: Guid(116fe99a763e66041a7d0596a9b72544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Pants2_Skin3.mat using Guid(116fe99a763e66041a7d0596a9b72544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5e55f2d9476e79fce271643e314ed3a') in 0.101707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Gloves1_Skin1.mat
-  artifactKey: Guid(3e4cde5eedb06e944bae6f80ebd17996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Gloves1_Skin1.mat using Guid(3e4cde5eedb06e944bae6f80ebd17996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e25abaa2cded5300b8edb8914e7285e') in 0.0684853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Pants2_Skin1.mat
-  artifactKey: Guid(cc095e0331d4a0946aebfd987c33f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Pants2_Skin1.mat using Guid(cc095e0331d4a0946aebfd987c33f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0bac027f8f00d88d73f35860c7e712d') in 0.0713243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin4.mat
-  artifactKey: Guid(ccfb5ff9a2f4e8f4c9b8355539a1358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin4.mat using Guid(ccfb5ff9a2f4e8f4c9b8355539a1358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e30c0d9ad22aa01facb840ee40e3f27e') in 0.0699531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin2.mat
-  artifactKey: Guid(395fd9fdae985024b8e9c65ed877cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Cap1_Skin2.mat using Guid(395fd9fdae985024b8e9c65ed877cfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f006828e63d4e343219bce9aa078ca9d') in 0.0655421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/SOnNGUYXN/Military/Materials URP/URP_Hands1_Skin1.mat
-  artifactKey: Guid(783219dea1a267b46b5cb22cfc843e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Military/Materials URP/URP_Hands1_Skin1.mat using Guid(783219dea1a267b46b5cb22cfc843e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7dba6f8939dbd4ab1526ed98f8241c3') in 0.0624848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6407 unused Assets / (4.7 MB). Loaded Objects now: 7354.
-Memory consumption went from 175.3 MB to 170.5 MB.
-Total: 21.469000 ms (FindLiveObjects: 1.268400 ms CreateObjectMapping: 1.399100 ms MarkObjects: 13.260900 ms  DeleteObjects: 5.539300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6403 unused Assets / (6.8 MB). Loaded Objects now: 7354.
-Memory consumption went from 180.0 MB to 173.2 MB.
-Total: 18.950700 ms (FindLiveObjects: 1.438700 ms CreateObjectMapping: 1.498900 ms MarkObjects: 9.104300 ms  DeleteObjects: 6.907300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.988 seconds
-Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.290 seconds
-Domain Reload Profiling: 3281ms
-	BeginReloadAssembly (334ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (114ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (575ms)
-		LoadAssemblies (506ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2290ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1910ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (1516ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6410 unused Assets / (6.3 MB). Loaded Objects now: 7243.
-Memory consumption went from 191.6 MB to 185.3 MB.
-Total: 18.960300 ms (FindLiveObjects: 2.387000 ms CreateObjectMapping: 1.676900 ms MarkObjects: 8.885900 ms  DeleteObjects: 6.006700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 442.562338 seconds.
-  path: Assets/SOnNGUYXN/Scripts/PlayerMove.cs
-  artifactKey: Guid(75cb5e22fa23a8c49b55527aa023b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SOnNGUYXN/Scripts/PlayerMove.cs using Guid(75cb5e22fa23a8c49b55527aa023b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46a871fcbc186cdbc78c36420c83b74') in 0.0072858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000056 seconds.
+  path: Assets/GiaHao/_TerrainAutoUpgrade/layer_Gravel608c3929b87867c.terrainlayer
+  artifactKey: Guid(f678a24c0ddb07d4b9eea1f696111dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GiaHao/_TerrainAutoUpgrade/layer_Gravel608c3929b87867c.terrainlayer using Guid(f678a24c0ddb07d4b9eea1f696111dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e231c2e385bc09cbbf14ccb6b32a8c46') in 0.0032736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.848 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for Android target not found
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.232 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.379 seconds
-Domain Reload Profiling: 2232ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  2.094 seconds
+Domain Reload Profiling: 3330ms
+	BeginReloadAssembly (380ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (425ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (734ms)
+		LoadAssemblies (630ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
+		AnalyzeDomain (301ms)
 			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
+			BuildScriptInfoCaches (267ms)
 			ResolveRequiredComponents (18ms)
-	FinalizeReload (1380ms)
+	FinalizeReload (2095ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1191ms)
+		SetupLoadedEditorAssemblies (1828ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (694ms)
-			ProcessInitializeOnLoadMethodAttributes (357ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (1492ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6410 unused Assets / (6.2 MB). Loaded Objects now: 7245.
-Memory consumption went from 180.3 MB to 174.1 MB.
-Total: 10.595600 ms (FindLiveObjects: 1.162100 ms CreateObjectMapping: 0.691300 ms MarkObjects: 4.794300 ms  DeleteObjects: 3.946500 ms)
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6410 unused Assets / (6.4 MB). Loaded Objects now: 7171.
+Memory consumption went from 158.2 MB to 151.8 MB.
+Total: 30.585700 ms (FindLiveObjects: 4.962700 ms CreateObjectMapping: 2.582700 ms MarkObjects: 16.090100 ms  DeleteObjects: 6.944700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 49.261345 seconds.
-  path: Assets/GiaHao/TaiNguyen/StarterAssets/Settings/Low_PipelineAsset.asset
-  artifactKey: Guid(d6898ced4e4514f55ab4909252c72153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GiaHao/TaiNguyen/StarterAssets/Settings/Low_PipelineAsset.asset using Guid(d6898ced4e4514f55ab4909252c72153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d9080b447b73cc079b54a2a6896bdb') in 0.0265689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91af3463924372b8f3f2f4939a1f1e03') in 0.001669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee58339353993c2d2d7ee60e8205cf2') in 0.0029209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/GiaHao/TaiNguyen/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset
-  artifactKey: Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GiaHao/TaiNguyen/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset using Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '857c97f89853b89f97291cc3da394471') in 0.0048581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
