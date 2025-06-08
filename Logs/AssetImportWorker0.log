@@ -1,0 +1,544 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-06-01T13:04:04Z
+
+COMMAND LINE ARGUMENTS:
+D:\6000.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/6000.0.42f1/Game3DNangCaoSinhTon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53008
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/6000.0.42f1/Game3DNangCaoSinhTon
+D:/6000.0.42f1/Game3DNangCaoSinhTon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5832]  Target information:
+
+Player connection [5832]  * "[IP] 26.27.202.181 [Port] 0 [Flags] 2 [Guid] 2597239905 [EditorId] 2597239905 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5832]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2597239905 [EditorId] 2597239905 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5832]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2597239905 [EditorId] 2597239905 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5832]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2597239905 [EditorId] 2597239905 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5832] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5832] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.3f1 (f34db9734971)
+[Subsystems] Discovering subsystems at path D:/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/6000.0.42f1/Game3DNangCaoSinhTon/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5921 MB
+    App VRAM Budget: 5153 MB
+    Driver:          32.0.15.6614
+Initialize mono
+Mono path[0] = 'D:/6000.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003901 seconds.
+- Loaded All Assemblies, in  1.428 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 2512ms
+	BeginReloadAssembly (567ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (567ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (584ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (545ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1086ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (960ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (140ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  3.536 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.133 seconds
+Domain Reload Profiling: 5664ms
+	BeginReloadAssembly (879ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (165ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (2354ms)
+		LoadAssemblies (2313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (620ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (362ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (1331ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 263 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6413 unused Assets / (6.0 MB). Loaded Objects now: 7155.
+Memory consumption went from 187.0 MB to 180.9 MB.
+Total: 18.171100 ms (FindLiveObjects: 2.214500 ms CreateObjectMapping: 0.932400 ms MarkObjects: 10.476000 ms  DeleteObjects: 4.546400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.236 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.565 seconds
+Domain Reload Profiling: 2805ms
+	BeginReloadAssembly (418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (602ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (871ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6411 unused Assets / (5.5 MB). Loaded Objects now: 7169.
+Memory consumption went from 155.7 MB to 150.3 MB.
+Total: 13.376300 ms (FindLiveObjects: 0.890400 ms CreateObjectMapping: 0.762100 ms MarkObjects: 7.691100 ms  DeleteObjects: 4.029500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7943.344681 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Materials
+  artifactKey: Guid(4fa083c392449524a904b1dd25aa97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Materials using Guid(4fa083c392449524a904b1dd25aa97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dee4e4551ab18485f2a2607c8ed3a2a3') in 0.0211327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Materials/Bear_4.mat
+  artifactKey: Guid(b614f09dade340f4aa841aafe3df42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Materials/Bear_4.mat using Guid(b614f09dade340f4aa841aafe3df42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8461ed289b7824d5f01e84c03260ecc4') in 1.1305814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.239791 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Icons
+  artifactKey: Guid(73c6b3989ae10564f92ec35ebdd31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Icons using Guid(73c6b3989ae10564f92ec35ebdd31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ff30f1b0e53f3b72c5de8c60e331e5') in 0.0011543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034471 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Icons/Bear3.png
+  artifactKey: Guid(6054318fc678eef4e97655493b73c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Icons/Bear3.png using Guid(6054318fc678eef4e97655493b73c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9b065b570546adb3a5d945d55dc776') in 0.192783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.588323 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx
+  artifactKey: Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Meshes/Bear.fbx using Guid(b7822eb5951163b48830b6d9bcbf48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85a9d9aef70d933e13e30427f8b6a09') in 5.4050245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.037713 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear
+  artifactKey: Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear using Guid(732a34944c5eb2c43bb0b80fe20f1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '570fee20e3c9a06ac1df748b0a2b29ed') in 0.0005501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995476 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs
+  artifactKey: Guid(fd1f0b2fba998b740808cbc90d18d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs using Guid(fd1f0b2fba998b740808cbc90d18d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d2d82d52bdb66612b5a21eccdbde80') in 0.0011003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab
+  artifactKey: Guid(f5b41ba4c79702547a89de7544b80656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab using Guid(f5b41ba4c79702547a89de7544b80656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc94a2cf0b8d0a557920b11ddd93973b') in 0.7475841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 205
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.084903 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures
+  artifactKey: Guid(4c2ebd47ee1e53c4d8dcb56e359a594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures using Guid(4c2ebd47ee1e53c4d8dcb56e359a594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122342b2990042cf55a9e60027ca57ac') in 0.0020023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136895 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures/Stylized_Bear_Albedo4.png
+  artifactKey: Guid(93fb1fce8497ab447a7cc4f7faa1f322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures/Stylized_Bear_Albedo4.png using Guid(93fb1fce8497ab447a7cc4f7faa1f322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b1918b24898d162dc20e50086ef6667') in 0.0336278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures/Stylized_Bear_Normal.png
+  artifactKey: Guid(d28fabf885861fb48ae21d198e816aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Textures/Stylized_Bear_Normal.png using Guid(d28fabf885861fb48ae21d198e816aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd6ffc295dc69e9b03abbb3b7f095ec') in 0.0617548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.467388 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations
+  artifactKey: Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations using Guid(bc7dae0a88a9b3743b3d8db26f35f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ede3dd5c516496a996669b41cdc139e9') in 0.0006442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075421 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx
+  artifactKey: Guid(4988406988758b843b0f0d89fd78ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx using Guid(4988406988758b843b0f0d89fd78ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2559d1a0d663037ca8ea1e14e8d3dda4') in 0.0123219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx
+  artifactKey: Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx using Guid(8a572efe21c51fe4aae52075a5bfe620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503da1cbc7863aba35d91af75173ae43') in 0.0091972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx
+  artifactKey: Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx using Guid(5505d12703e333b499d0c8ed300b5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9af4610377113c3c40600b1829b8754c') in 0.0131404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx
+  artifactKey: Guid(aab8b0cfc53d18840993589acb4626fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx using Guid(aab8b0cfc53d18840993589acb4626fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '299bbc1ecd2ca72a2e8e9944d19e2276') in 0.0106862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx
+  artifactKey: Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx using Guid(e009b06e60bb7a34ab1c435503be5c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd593d9cfc56a2e0b129fd44e6281af93') in 0.0135267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx
+  artifactKey: Guid(11e6e2757ecd32547a5c9b857db7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx using Guid(11e6e2757ecd32547a5c9b857db7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f3710700d8212bbc59bd22710ed714') in 0.0150146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx
+  artifactKey: Guid(1e0dfdbe57c95664481b506ea14982ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx using Guid(1e0dfdbe57c95664481b506ea14982ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '427471ad93ef816c101391c61f00f399') in 0.0107041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx
+  artifactKey: Guid(1ab61e70786ce27449cbb57c2fe646ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx using Guid(1ab61e70786ce27449cbb57c2fe646ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f467e32701501cc7f1963ea24ab4ad48') in 0.012604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx
+  artifactKey: Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx using Guid(d4e01fbfd601a224e83e1bafb2b0a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4b41a09a733ba6f0b7e539e7885f07') in 0.0203647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx
+  artifactKey: Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx using Guid(786582bf61e76c242b37956059d4c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a7f64cb87963020912c476e8c577ee') in 0.0127478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx
+  artifactKey: Guid(9526e1dddf33ebc43a98d410f7e49d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx using Guid(9526e1dddf33ebc43a98d410f7e49d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae819ef3383dbc27c9d95d807374de40') in 0.0123303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx
+  artifactKey: Guid(8c2ee54c140b7a14591bc2e3f39e4980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx using Guid(8c2ee54c140b7a14591bc2e3f39e4980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4bbc59e172199a3f0e5650eb5326269') in 0.0100716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx
+  artifactKey: Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx using Guid(632368da2a0c8904ab1e6031fb4591df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '653526d954eeee2c8ac0ab3b41ed4f46') in 0.0162498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx
+  artifactKey: Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx using Guid(168542ff75cc8964fb4e265f66c946cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c54ade02f22078116da51a3096b100c') in 0.0127501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx
+  artifactKey: Guid(d614bdd708fc9914da3949d1b0c9cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx using Guid(d614bdd708fc9914da3949d1b0c9cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '458d8d265de99ada3fa556ce4654e977') in 0.0105339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx
+  artifactKey: Guid(7ece14db7c507c64089ee3e86e00ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx using Guid(7ece14db7c507c64089ee3e86e00ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d21ecca5078d615d9d1d4ae621b18b') in 0.0234199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx
+  artifactKey: Guid(b28e5d7f4741b9146a939205f87fd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaoAn/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx using Guid(b28e5d7f4741b9146a939205f87fd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8ae8b39a5ac3704351f3e3366f8bd2') in 0.0107371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.498 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.463 seconds
+Domain Reload Profiling: 3967ms
+	BeginReloadAssembly (492ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (863ms)
+		LoadAssemblies (733ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (352ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2023ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (319ms)
+			ProcessInitializeOnLoadAttributes (1470ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6412 unused Assets / (5.8 MB). Loaded Objects now: 7246.
+Memory consumption went from 175.7 MB to 169.8 MB.
+Total: 18.887200 ms (FindLiveObjects: 0.914800 ms CreateObjectMapping: 0.918800 ms MarkObjects: 11.538900 ms  DeleteObjects: 5.511000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
