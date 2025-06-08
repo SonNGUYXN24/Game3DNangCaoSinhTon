@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Game3DASM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{923C81E3-EB25-A458-18B0-79E0DEE44756}|Assembly-CSharp.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\game3dasm\\assets\\baoan\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{923C81E3-EB25-A458-18B0-79E0DEE44756}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Game3DASM\\Assets\\BaoAn\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Fire.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Game3DASM\\Assets\\BaoAn\\Fire.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Fire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:20:24.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
