@@ -74,3 +74,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Unity.PackageValidationSuite.Editor.csproj
+Unity.Collections.csproj
+Unity.Collections.Editor.csproj
+Unity.AI.Navigation.csproj
+Unity.AI.Navigation.Editor.ConversionSystem.csproj
+Unity.AI.Navigation.Editor.csproj
+Unity.AI.Navigation.Updater.csproj
+Unity.Burst.CodeGen.csproj
