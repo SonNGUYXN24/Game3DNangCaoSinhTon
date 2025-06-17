@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\game3dnangcaosinhton\\assets\\giahao\\scripts\\watersensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\giahao\\scripts\\watersensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\assets\\giahao\\scripts\\playerunderwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\giahao\\scripts\\playerunderwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UniversalRenderPipeline.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "ViewState": "AgIAAE4DAAAAAAAAAAAqwHkDAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:55:06.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaterSensor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "RelativeDocumentMoniker": "Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "RelativeToolTip": "Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:44:22.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerUnderWater.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "RelativeDocumentMoniker": "Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "RelativeToolTip": "Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:32:45.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Bear.cs",
-              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Bear.cs",
-              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeToolTip": "Assets\\BaoAn\\Code\\Bear.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T13:10:12.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T13:10:12.608Z"
             }
           ]
         }
