@@ -14,6 +14,11 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private CharacterController controller;
     [SerializeField] private Transform cameraHolder;
     [SerializeField] private Transform cameraTransform;
+    [SerializeField] private PlayerAnimatorController playerAnimatorController;
+
+
+
+
 
     [Header("Look Settings")]
     public float mouseSensitivity = 2f;
@@ -107,6 +112,7 @@ public class PlayerMove : MonoBehaviour
         Vector3 velocity = Vector3.up * verticalVelocity;
 
         controller.Move((move * currentSpeed + velocity) * Time.deltaTime);
+
     }
 
     void HandleMouseLook()
@@ -152,4 +158,5 @@ public class PlayerMove : MonoBehaviour
         cameraTransform.localRotation = Quaternion.Euler(0f, 0f, cameraRoll);
         cameraTransform.localPosition = originalCamLocalPos + bobOffset;
     }
+
 }
