@@ -66,6 +66,7 @@
     <Compile Include="Assets\BaoAn\Electric Torch\Script\ChooseLightCookie.cs" />
     <Compile Include="Assets\BaoAn\Electric Torch\Script\EmissionMaterialGlassTorchFadeOut.cs" />
     <Compile Include="Assets\BaoAn\Code\Bear.cs" />
+    <Compile Include="Assets\QuangHuy\Scipts\ChaseBear.cs" />
     <Compile Include="Assets\SOnNGUYXN\WeaponsAndPropsAssetPack_NAS\Scripts\Breakable.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\BaoAn\Blink\Art\Animals\Stylized\Demo_Animals\DemoData\AnimationDemo.cs" />
