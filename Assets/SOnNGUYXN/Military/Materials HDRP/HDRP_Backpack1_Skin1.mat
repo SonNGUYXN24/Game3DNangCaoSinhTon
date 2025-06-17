@@ -24,19 +24,21 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HDRP_Backpack1_Skin1
-  m_Shader: {fileID: -6465566751694194690, guid: c28bb37ced75c094faa86ea19e772801, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _DISABLE_DECALS
-  m_InvalidKeywords:
-  - _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _OCCLUSIONMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
+    RenderType: Opaque
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -161,18 +163,22 @@ Material:
     - _BUMP_MAP_STRENGTH: 0.3
     - _Blend: 0
     - _BlendMode: 0
+    - _BlendModePreserveSpecular: 1
     - _BlendOp: 0
     - _BumpScale: 1
     - _COAT_IOR: 1.4
     - _COAT_ROUGHNESS: 0
     - _COAT_THICKNESS: 5
     - _COAT_WEIGHT: 0
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _ConservativeDepthOffsetEnable: 0
     - _Cull: 2
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
+    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
@@ -185,6 +191,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableHeightBlend: 0
     - _EnableInstancedPerPixelNormal: 1
+    - _EnvironmentReflections: 1
     - _ExcludeFromTUAndAA: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -204,12 +211,14 @@ Material:
     - _REFLECTIONS_ROUGHNESS: 1
     - _REFLECTIONS_WEIGHT: 1
     - _RayTracing: 0
+    - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SampleGI: 0
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularOcclusionMode: 1
@@ -245,6 +254,7 @@ Material:
     - _UseNormalMap: 1
     - _UseRoughnessMap: 1
     - _UseShadowThreshold: 0
+    - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
@@ -260,6 +270,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TRANSPARENCY: {r: 1, g: 1, b: 1, a: 1}
     - _UvOffset: {r: 0, g: 0, b: 0, a: 0}
     - _UvTiling: {r: 1, g: 1, b: 0, a: 0}
