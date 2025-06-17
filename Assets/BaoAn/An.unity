@@ -976,7 +976,7 @@ MonoBehaviour:
   controller: {fileID: 2077695441}
   cameraHolder: {fileID: 1143401081}
   cameraTransform: {fileID: 61475460}
-  playerAnimatorController: {fileID: 0}
+  playerAnimatorController: {fileID: 2077695450}
   mouseSensitivity: 0.5
   tiltFrequency: 5
   tiltAmplitude: 1

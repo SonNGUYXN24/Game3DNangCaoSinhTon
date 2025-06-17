@@ -149,7 +149,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fbc7d1d2fca08664f8010001f1b02de3, type: 3}
   m_Resource: {fileID: 8300000, guid: fbc7d1d2fca08664f8010001f1b02de3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -582,7 +582,7 @@ Transform:
   m_GameObject: {fileID: 314920181}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.97865236, z: -0, w: -0.20552275}
-  m_LocalPosition: {x: 8.75698, y: 0.3, z: 5.0181694}
+  m_LocalPosition: {x: 8.75698, y: -0.39, z: 5.0181694}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1241,7 +1241,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 78dddafcdbcf69b42a77453d6addbc3e, type: 3}
   m_Resource: {fileID: 8300000, guid: 78dddafcdbcf69b42a77453d6addbc3e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2213,7 +2213,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: f58137a37509d1142a986afd14030faa, type: 3}
   m_Resource: {fileID: 8300000, guid: f58137a37509d1142a986afd14030faa, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2342,7 +2342,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 519ac20c1580dd34389aa4bf1ec19d8f, type: 3}
   m_Resource: {fileID: 8300000, guid: 519ac20c1580dd34389aa4bf1ec19d8f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2777,7 +2777,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fd20977ea963fea44ad5c5650ec7e698, type: 3}
   m_Resource: {fileID: 8300000, guid: fd20977ea963fea44ad5c5650ec7e698, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3946,8 +3946,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1048638439}
     m_Modifications:
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8273
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8273
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8273
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 492.7542
+      value: 495.81
       objectReference: {fileID: 0}
     - target: {fileID: 7292658344771522932, guid: f5b41ba4c79702547a89de7544b80656, type: 3}
       propertyPath: m_LocalPosition.y
