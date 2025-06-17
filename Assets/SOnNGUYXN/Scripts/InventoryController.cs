@@ -2,15 +2,34 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject inventoryCanvas;
+    private bool isInventoryOpen = false;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            ToggleInventory();
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && isInventoryOpen)
+        {
+            CloseInventory();
+        }
+    }
+
+    void ToggleInventory()
+    {
+        isInventoryOpen = !isInventoryOpen;
+        inventoryCanvas.SetActive(isInventoryOpen);
+        Cursor.visible = isInventoryOpen;
+        Cursor.lockState = isInventoryOpen ? CursorLockMode.None : CursorLockMode.Locked;
+    }
+
+    void CloseInventory()
+    {
+        isInventoryOpen = false;
+        inventoryCanvas.SetActive(false);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

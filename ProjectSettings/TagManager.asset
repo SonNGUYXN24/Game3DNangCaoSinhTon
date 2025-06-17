@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - UnderWater
+  - Tree
   layers:
   - Default
   - TransparentFX
@@ -16,9 +17,9 @@ TagManager:
   - Terrain
   - underWater
   - post processing
-  - 
-  - 
-  - 
+  - Tree
+  - Grass
+  - Rock
   - 
   - 
   - 

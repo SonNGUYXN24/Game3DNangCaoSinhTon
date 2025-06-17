@@ -49,15 +49,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\Iventory.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\GameController.cs" />
     <Compile Include="Assets\BaoAn\Code\Player Animation.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_PrefabGenerator.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\StartusPlayer.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_TrailFade.cs" />
+    <Compile Include="Assets\GiaHao\Scripts\PlayerUnderWater.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\IventorySlot.cs" />
+    <Compile Include="Assets\GiaHao\Scripts\WaterSensor.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
@@ -68,6 +73,7 @@
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Triggers\Integrations\UI Widgets\Scripts\Runtime\YesNoDialog.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\GameTime.cs" />
     <Compile Include="Assets\SOnNGUYXN\WeaponsAndPropsAssetPack_NAS\Scripts\Breakable.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_AnimSpeedRandomizer.cs" />
@@ -78,6 +84,9 @@
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
     <Compile Include="Assets\BaoAn\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\GraggableItem.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\WeatherController.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\ItemData.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\BaoAn\Code\Sound Foot Grass.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_Rotate.cs" />
@@ -616,7 +625,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
@@ -628,11 +637,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@b4d700247d4b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1131,10 +1148,6 @@
       <HintPath>D:\UnityHub\Unity Hub\2022.3.51f1\6000.1.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1307,10 +1320,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1323,16 +1332,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
@@ -1349,10 +1358,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
