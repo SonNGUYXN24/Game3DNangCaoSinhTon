@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SOnNGUYXN\Stylized 3D Tools\Scripts\Rotator.cs" />
+    <Compile Include="Assets\QuangHuy\Scipts\BearSpawner.cs" />
     <Compile Include="Assets\GiaHao\TaiNguyen\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\BaoAn\Electric Torch\Script\ChooseLightCookie.cs" />
     <Compile Include="Assets\BaoAn\Electric Torch\Script\EmissionMaterialGlassTorchFadeOut.cs" />
