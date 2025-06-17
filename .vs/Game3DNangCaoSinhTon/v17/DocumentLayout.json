@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\assets\\baoan\\code\\player scream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\player scream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\assets\\baoan\\code\\sound foot grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\sound foot grass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\player sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\player sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\player animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\player animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\sonnguyxn\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\sonnguyxn\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player Scream.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Scream.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Player Scream.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Scream.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Code\\Player Scream.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:27:14.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sound Foot Grass.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Sound Foot Grass.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Sound Foot Grass.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Sound Foot Grass.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Code\\Sound Foot Grass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:53:28.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player Sound.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Sound.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Player Sound.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Sound.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Code\\Player Sound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:17:45.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player Animation.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Animation.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Player Animation.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Player Animation.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Code\\Player Animation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:54:28.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\SOnNGUYXN\\Scripts\\PlayerMove.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\SOnNGUYXN\\Scripts\\PlayerMove.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwBAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:44:18.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Bear.cs",
               "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Bear.cs",
               "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeToolTip": "Assets\\BaoAn\\Code\\Bear.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T13:10:12.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T13:10:12.608Z"
             }
           ]
         }
