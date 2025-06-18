@@ -7,20 +7,28 @@ public class GameTime : MonoBehaviour
     [Range(0, 1)] public float currentTimeOfDay;
     public float timeMultiplier = 1f;
     public Light directionalLight;
-    public Gradient lightColor; // Dùng chỉnh màu sáng theo thời gian
+    public Gradient lightColor; // Đổi màu mặt trời theo thời gian
     public AnimationCurve lightIntensity;
+    public AnimationCurve skyboxExposure; // <-- Thêm curve để điều chỉnh độ sáng Skybox
     public TextMeshProUGUI timeText;
 
-    private float time; // tổng số giây trong game từ khi bắt đầu
+    private float time;
     public int currentDay;
+    private float startHour = 7f;
 
-    private float startHour = 7f; // 7 giờ sáng
+    private Material skyboxMaterial;
 
     void Start()
     {
-        // Tính thời gian bắt đầu tương ứng với 7h sáng
         float startPercent = startHour / 24f;
         time = startPercent * secondsInFullDay;
+
+        // Tạo bản sao Skybox để thay đổi thông số riêng không ảnh hưởng global
+        if (RenderSettings.skybox != null)
+        {
+            skyboxMaterial = new Material(RenderSettings.skybox);
+            RenderSettings.skybox = skyboxMaterial;
+        }
     }
 
     void Update()
@@ -35,11 +43,21 @@ public class GameTime : MonoBehaviour
 
     void UpdateLighting(float timePercent)
     {
-        // Góc mặt trời quay theo thời gian trong ngày, 0% = 90° (Đông), 50% = 270° (Tây)
+        // Di chuyển mặt trời
         float angle = timePercent * 360f + 90f;
         directionalLight.transform.rotation = Quaternion.Euler(new Vector3(angle, 170f, 0));
         directionalLight.color = lightColor.Evaluate(timePercent);
         directionalLight.intensity = lightIntensity.Evaluate(timePercent);
+
+        // Điều chỉnh Skybox Exposure nếu có
+        if (skyboxMaterial != null && skyboxMaterial.HasProperty("_Exposure"))
+        {
+            float exposure = skyboxExposure.Evaluate(timePercent);
+            skyboxMaterial.SetFloat("_Exposure", exposure);
+        }
+
+        // Cập nhật ánh sáng môi trường (ambient)
+        RenderSettings.ambientIntensity = lightIntensity.Evaluate(timePercent);
     }
 
     void UpdateClockDisplay()
@@ -47,8 +65,6 @@ public class GameTime : MonoBehaviour
         float totalMinutes = currentTimeOfDay * 24f * 60f;
         int hours = Mathf.FloorToInt(totalMinutes / 60f);
         int minutes = Mathf.FloorToInt(totalMinutes % 60f);
-
-        string timeStr = $"{hours:00}:{minutes:00}";
-        timeText.text = $"Day {currentDay} - {timeStr}";
+        timeText.text = $"Day {currentDay} - {hours:00}:{minutes:00}";
     }
 }

@@ -71,9 +71,11 @@
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
     <Compile Include="Assets\BaoAn\Code\Bear.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\GameManager.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Triggers\Integrations\UI Widgets\Scripts\Runtime\YesNoDialog.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\GameTime.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\LoadSave.cs" />
     <Compile Include="Assets\SOnNGUYXN\WeaponsAndPropsAssetPack_NAS\Scripts\Breakable.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_AnimSpeedRandomizer.cs" />
@@ -632,6 +634,10 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
       <Private>False</Private>
@@ -642,10 +648,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
