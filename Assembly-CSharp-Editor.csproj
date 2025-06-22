@@ -57,6 +57,7 @@
     <Compile Include="Assets\SOnNGUYXN\Devion Games\UI Widgets\Scripts\Editor\UIWidgetInspector.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Scripts\Editor\VisibleItemsEditor.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Utilities\Scripts\Editor\Inspectors\PropertyBindingInspector.cs" />
+    <Compile Include="Assets\BaoAn\ParticlePack\Shared\Ramps\Editor\RampAssetEditor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Utilities\Scripts\Editor\Internal\InternalTestingTools.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Utilities\Scripts\Editor\Property Drawers\MinMaxSliderDrawer.cs" />

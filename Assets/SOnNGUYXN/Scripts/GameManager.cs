@@ -1,47 +1,82 @@
 using UnityEngine;
-using System.IO;
+using TMPro;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-    public GameTime gameTime; // Kéo GameTime vào đây trong Inspector
+    public static GameManager Instance;
 
-    private int lastSavedDay = 0;
+    [Header("Time Reference")]
+    public GameTime gameTime;
 
-    void Start()
+    [Header("Fade Settings")]
+    public CanvasGroup fadeCanvas;
+    public float fadeDuration = 1f;
+
+    private void Awake()
     {
-        if (gameTime == null)
+        if (Instance == null)
         {
-            Debug.LogError("GameTime chưa được gán trong GameManager!");
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // nếu bạn muốn giữ qua scene
         }
-
-        lastSavedDay = gameTime.currentDay;
-    }
-
-    void Update()
-    {
-        int currentDay = gameTime.currentDay;
-
-        if (currentDay > lastSavedDay)
+        else
         {
-            SaveGame(currentDay - 1); // Lưu lại ngày vừa kết thúc
-            lastSavedDay = currentDay;
+            Destroy(gameObject);
         }
     }
 
-    void SaveGame(int dayToSave)
+    public void SaveProgress()
     {
-        // Ví dụ lưu file đơn giản
-        string saveData = $"Game saved at end of Day {dayToSave} - {System.DateTime.Now}";
-        string filePath = Application.persistentDataPath + $"/Save_Day{dayToSave}.txt";
+        StartCoroutine(SaveGameRoutine());
+    }
 
-        try
+    private IEnumerator SaveGameRoutine()
+    {
+        // Fade màn hình đen
+        if (fadeCanvas != null)
         {
-            File.WriteAllText(filePath, saveData);
-            Debug.Log($"✅ Game đã được lưu: {filePath}");
+            yield return FadeIn();
         }
-        catch (System.Exception e)
+
+        // Chuyển thời gian thành 9h sáng ngày hôm sau
+        float nineAMPercent = 9f / 24f;
+        gameTime.currentTimeOfDay = nineAMPercent;
+        gameTime.SetTimeTo(nineAMPercent); // cần thêm hàm SetTimeTo trong GameTime
+        Debug.Log($"💾 Game saved at Day {gameTime.currentDay} - 09:00");
+
+        PlayerPrefs.SetInt("SavedDay", gameTime.currentDay);
+        PlayerPrefs.Save();
+
+        yield return new WaitForSeconds(1f);
+
+        if (fadeCanvas != null)
         {
-            Debug.LogError($"❌ Lỗi khi lưu game: {e.Message}");
+            yield return FadeOut();
         }
+    }
+
+    private IEnumerator FadeIn()
+    {
+        float t = 0f;
+        while (t < fadeDuration)
+        {
+            t += Time.deltaTime;
+            fadeCanvas.alpha = Mathf.Lerp(0, 1, t / fadeDuration);
+            yield return null;
+        }
+        fadeCanvas.alpha = 1;
+    }
+
+    private IEnumerator FadeOut()
+    {
+        float t = 0f;
+        while (t < fadeDuration)
+        {
+            t += Time.deltaTime;
+            fadeCanvas.alpha = Mathf.Lerp(1, 0, t / fadeDuration);
+            yield return null;
+        }
+        fadeCanvas.alpha = 0;
     }
 }

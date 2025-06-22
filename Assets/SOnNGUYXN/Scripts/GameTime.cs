@@ -40,6 +40,10 @@ public class GameTime : MonoBehaviour
         UpdateLighting(currentTimeOfDay);
         UpdateClockDisplay();
     }
+    public void SetTimeTo(float timePercent)
+{
+    time = timePercent * secondsInFullDay + (currentDay * secondsInFullDay);
+}
 
     void UpdateLighting(float timePercent)
     {
