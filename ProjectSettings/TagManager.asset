@@ -9,6 +9,10 @@ TagManager:
   - Tree
   - Pickaxe
   - Rocks
+  - MetalAxe
+  - WoodPickup
+  - Grass
+  - Arrow
   layers:
   - Default
   - TransparentFX
@@ -22,9 +26,9 @@ TagManager:
   - Tree
   - Grass
   - Rock
-  - 
-  - 
-  - 
+  - Wood
+  - Stone
+  - Arrow
   - 
   - 
   - 

@@ -8,14 +8,14 @@ public class Raycast : MonoBehaviour
     [SerializeField] private float rayDistance = 5f;
 
     [Header("UI Elements")]
-    [SerializeField] private GameObject pickupPrompt; // TextMeshPro Object "Nhấn E để nhặt"
+    [SerializeField] private GameObject pickupPrompt;
     [SerializeField] private TextMeshProUGUI grassCountText;
     [SerializeField] private TextMeshProUGUI rocksCountText;
     [SerializeField] private TextMeshProUGUI treesCountText;
+    [SerializeField] private GameObject crosshair; // hình ảnh hồng tâm, đặt giữa màn hình
 
-    private int grassCount = 0;
-    private int rocksCount = 0;
-    private int treesCount = 0;
+    [Header("Inventory System")]
+    [SerializeField] private Inventory inventory;
 
     private Transform currentTarget;
     private int currentLayerIndex = -1;
@@ -26,7 +26,6 @@ public class Raycast : MonoBehaviour
         currentTarget = null;
         currentLayerIndex = -1;
 
-        // Check raycast for each layer
         for (int i = 0; i < layerMasks.Count; i++)
         {
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, rayDistance, layerMasks[i]))
@@ -39,8 +38,8 @@ public class Raycast : MonoBehaviour
             }
         }
 
-        // Handle UI display
-        pickupPrompt.SetActive(found);
+        pickupPrompt?.SetActive(found);
+        crosshair?.SetActive(true); // luôn bật crosshair
 
         if (found && Input.GetKeyDown(KeyCode.E) && currentTarget != null)
         {
@@ -60,17 +59,25 @@ public class Raycast : MonoBehaviour
         switch (layerIndex)
         {
             case 0: // Grass
-                grassCount++;
-                grassCountText.text = "Grass: " + grassCount;
+                inventory.AddItem(ItemData.ItemType.Grass, 1);
+                grassCountText.text = "Grass: " + GetItemQuantity(ItemData.ItemType.Grass);
                 break;
+
             case 1: // Rocks
-                rocksCount++;
-                rocksCountText.text = "Rocks: " + rocksCount;
+                inventory.AddItem(ItemData.ItemType.Rock, 1);
+                rocksCountText.text = "Rocks: " + GetItemQuantity(ItemData.ItemType.Rock);
                 break;
+
             case 2: // Trees
-                treesCount++;
-                treesCountText.text = "Trees: " + treesCount;
+                inventory.AddItem(ItemData.ItemType.Wood, 1);
+                treesCountText.text = "Trees: " + GetItemQuantity(ItemData.ItemType.Wood);
                 break;
         }
+    }
+
+    private int GetItemQuantity(ItemData.ItemType type)
+    {
+        var item = inventory.items.Find(i => i.itemType == type);
+        return item != null ? item.quantity : 0;
     }
 }
