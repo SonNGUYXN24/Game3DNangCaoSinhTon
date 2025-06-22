@@ -1,18 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\",
+  "WorkspaceRootPath": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\game3dnangcaosinhton\\assets\\giahao\\scripts\\watersensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\giahao\\scripts\\watersensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|c:\\users\\admin\\onedrive\\ta\u0300i li\u00EA\u0323u\\github\\game3dnangcaosinhton\\assets\\giahao\\scripts\\playerunderwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\giahao\\scripts\\playerunderwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E6C32E7-3F09-9F7A-C1EC-C3754BE274D1}|Assembly-CSharp-Editor.csproj|d:\\6000.0.42f1\\game3dnangcaosinhton\\assets\\sonnguyxn\\devion games\\stat system\\scripts\\editor\\statsystemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6C32E7-3F09-9F7A-C1EC-C3754BE274D1}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\sonnguyxn\\devion games\\stat system\\scripts\\editor\\statsystemmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4EDBBAF-1105-80DE-3768-C4A306E04C28}|DevionGames.Triggers.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\sonnguyxn\\devion games\\triggers\\scripts\\runtime\\triggerraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EDBBAF-1105-80DE-3768-C4A306E04C28}|DevionGames.Triggers.csproj|solutionrelative:assets\\sonnguyxn\\devion games\\triggers\\scripts\\runtime\\triggerraycaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\sonnguyxn\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\sonnguyxn\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\tent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\tent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{511811E3-FF03-1CDC-CFFB-89BF08DDACD6}|Assembly-CSharp.csproj|solutionrelative:assets\\baoan\\code\\bear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,36 +49,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WaterSensor.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
-              "RelativeDocumentMoniker": "Assets\\GiaHao\\Scripts\\WaterSensor.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
-              "RelativeToolTip": "Assets\\GiaHao\\Scripts\\WaterSensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "MaterialUpgrader.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.core@79d3abb9adf1\\Editor\\MaterialUpgrader.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAcwBUCAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:44:22.56Z",
+              "WhenOpened": "2025-06-22T13:15:29.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerUnderWater.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
-              "RelativeDocumentMoniker": "Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
-              "RelativeToolTip": "Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Title": "StatSystemMenu.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Devion Games\\Stat System\\Scripts\\Editor\\StatSystemMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\SOnNGUYXN\\Devion Games\\Stat System\\Scripts\\Editor\\StatSystemMenu.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Devion Games\\Stat System\\Scripts\\Editor\\StatSystemMenu.cs",
+              "RelativeToolTip": "Assets\\SOnNGUYXN\\Devion Games\\Stat System\\Scripts\\Editor\\StatSystemMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:32:45.833Z",
+              "WhenOpened": "2025-06-22T13:00:53.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TriggerRaycaster.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Devion Games\\Triggers\\Scripts\\Runtime\\TriggerRaycaster.cs",
+              "RelativeDocumentMoniker": "Assets\\SOnNGUYXN\\Devion Games\\Triggers\\Scripts\\Runtime\\TriggerRaycaster.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Devion Games\\Triggers\\Scripts\\Runtime\\TriggerRaycaster.cs",
+              "RelativeToolTip": "Assets\\SOnNGUYXN\\Devion Games\\Triggers\\Scripts\\Runtime\\TriggerRaycaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:46:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SOnNGUYXN\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\SOnNGUYXN\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\SOnNGUYXN\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAewCcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:43:40.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tent.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Tent.cs",
+              "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Tent.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Tent.cs",
+              "RelativeToolTip": "Assets\\BaoAn\\Code\\Tent.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:35:22.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversalRenderPipeline.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@35104b1b69f5\\Runtime\\UniversalRenderPipeline.cs",
+              "ViewState": "AgIAAE4DAAAAAAAAAAAqwHkDAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:55:06.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WaterSensor.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\WaterSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:44:22.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerUnderWater.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\GiaHao\\Scripts\\PlayerUnderWater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:32:45.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Bear.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
+              "DocumentMoniker": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeDocumentMoniker": "Assets\\BaoAn\\Code\\Bear.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\GitHub\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
+              "ToolTip": "D:\\6000.0.42f1\\Game3DNangCaoSinhTon\\Assets\\BaoAn\\Code\\Bear.cs",
               "RelativeToolTip": "Assets\\BaoAn\\Code\\Bear.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
