@@ -55,27 +55,29 @@
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_PrefabGenerator.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\StartusPlayer.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_TrailFade.cs" />
-    <Compile Include="Assets\GiaHao\Scripts\PlayerUnderWater.cs" />
-    <Compile Include="Assets\GiaHao\TaiNguyen\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
+    <Compile Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\IventorySlot.cs" />
-    <Compile Include="Assets\GiaHao\Scripts\WaterSensor.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\ToolsScript\HandController.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\ToolsScript\RockHitCounter.cs" />
     <Compile Include="Assets\BaoAn\Code\Player Scream.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\WeaponController.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
     <Compile Include="Assets\BaoAn\Code\Bear.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
+    <Compile Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\Scripts\PlayerUnderWater.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\GameManager.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Triggers\Integrations\UI Widgets\Scripts\Runtime\YesNoDialog.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\GameTime.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\LoadSave.cs" />
+    <Compile Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\Scripts\WaterSensor.cs" />
     <Compile Include="Assets\SOnNGUYXN\WeaponsAndPropsAssetPack_NAS\Scripts\Breakable.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_AnimSpeedRandomizer.cs" />
@@ -95,9 +97,10 @@
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Examples\Particle Effects\ShurikenMagic\Scripts\SM_DestroyTimed.cs" />
     <Compile Include="Assets\BaoAn\Code\Player Sound.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\InventoryController.cs" />
+    <Compile Include="Assets\SOnNGUYXN\Scripts\ToolsScript\PickaxeController.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\PlayerAudio.cs" />
-    <Compile Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
+    <Compile Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\SOnNGUYXN\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
     <Compile Include="Assets\SOnNGUYXN\Scripts\MusicController.cs" />
     <Compile Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
@@ -110,27 +113,27 @@
     <None Include="Assets\SOnNGUYXN\Devion Games\Inventory System\Changes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Glass_PBR.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Glass_PBR.shader" />
     <None Include="Assets\SOnNGUYXN\Fonts\info.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\SOnNGUYXN\DimensionalAssetDesign\Lantern\HDRP\Materials\Flames_HDRP\Shaders\SH_Vefects_VFX_Fire_Flames.shader" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
-    <None Include="Assets\GiaHao\TaiNguyen\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Triggers\Rename Action Info.txt" />
-    <None Include="Assets\GiaHao\TaiNguyen\Fantasy Skybox FREE\ReleaseNotes.txt" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Fantasy Skybox FREE\ReleaseNotes.txt" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Village\Sources\Shaders\PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Triggers\Changes.txt" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Third Person Controller\Example\Particles\Impact\Shaders\Additive Alpha8.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
     <None Include="Assets\SOnNGUYXN\DimensionalAssetDesign\Lantern\HDRP\Materials\Flames_HDRP\Shaders\SH_Vefects_VFX_Heat_Haze.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -140,8 +143,8 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\SOnNGUYXN\DimensionalAssetDesign\Lantern\Info\Info_Lantern.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
     <None Include="Assets\SOnNGUYXN\DimensionalAssetDesign\Lantern\HDRP\Materials\Flames_HDRP\Shaders\SH_Vefects_VFX_Particles_Erosion.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
@@ -153,12 +156,13 @@
     <None Include="Assets\SOnNGUYXN\Devion Games\Third Person Controller\Changes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\SOnNGUYXN\Devion Games\Stat System\Changes.txt" />
-    <None Include="Assets\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
+    <None Include="Assets\BaoAn\GabrielAguiarProductions 1\GiaHao\TaiNguyen\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -1344,6 +1348,10 @@
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
