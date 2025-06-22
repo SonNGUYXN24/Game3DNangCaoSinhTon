@@ -7,7 +7,7 @@ using System.Collections;
 public class PickaxeController : MonoBehaviour
 {
     [Header("Pickaxe Settings")]
-    public Vector3 swingRotation = new Vector3(-90f, 0f, 0f); // Góc xoay khi bổ
+    public Vector3 swingRotation = new Vector3(-90f, 0f, 0f);
     public float swingDuration = 0.1f;
 
     [Header("Inventory")]
@@ -15,12 +15,17 @@ public class PickaxeController : MonoBehaviour
     public ItemData.ItemType rockItemType;
 
     [Header("UI Popup")]
-    public GameObject popupUI; // UI có sẵn trên Canvas
+    public GameObject popupUI;
     public Image popupIcon;
     public TMP_Text popupText;
     public Sprite rockIcon;
     public CanvasGroup popupGroup;
 
+    [Header("Raycast Reference")]
+    public Raycast raycastScript;
+
+    [Header("Collider")]
+    public Collider pickaxeCollider; // ← Gắn collider của pickaxe vào đây
 
     private Quaternion originalRotation;
     private bool isSwinging = false;
@@ -28,6 +33,7 @@ public class PickaxeController : MonoBehaviour
     private void Start()
     {
         originalRotation = transform.localRotation;
+        if (pickaxeCollider) pickaxeCollider.enabled = false;
     }
 
     private void Update()
@@ -41,6 +47,7 @@ public class PickaxeController : MonoBehaviour
     private IEnumerator SwingPickaxe()
     {
         isSwinging = true;
+        if (pickaxeCollider) pickaxeCollider.enabled = true;
 
         Quaternion targetRotation = Quaternion.Euler(swingRotation);
         float elapsed = 0f;
@@ -60,16 +67,19 @@ public class PickaxeController : MonoBehaviour
             yield return null;
         }
 
+        if (pickaxeCollider) pickaxeCollider.enabled = false;
         isSwinging = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Rocks") && other.gameObject.layer == LayerMask.NameToLayer("Rocks"))
+        if (other.CompareTag("Rocks"))
         {
-            int amount = Random.Range(1, 11); // Ngẫu nhiên 1 - 10
+            int amount = Random.Range(1, 11);
             inventory.AddItem(rockItemType, amount);
             ShowPopup(amount);
+
+            if (raycastScript) raycastScript.UpdateRockUI();
 
             RockHitCounter rockHit = other.GetComponent<RockHitCounter>();
             if (rockHit == null)
@@ -87,7 +97,6 @@ public class PickaxeController : MonoBehaviour
     private void ShowPopup(int amount)
     {
         popupUI.SetActive(true);
-
         popupIcon.sprite = rockIcon;
         popupText.text = "+" + amount;
 
@@ -95,8 +104,7 @@ public class PickaxeController : MonoBehaviour
         popupGroup.DOFade(0f, 1f).OnComplete(() =>
         {
             popupUI.SetActive(false);
-            popupGroup.alpha = 1f; // reset lại alpha
+            popupGroup.alpha = 1f;
         });
     }
-
 }

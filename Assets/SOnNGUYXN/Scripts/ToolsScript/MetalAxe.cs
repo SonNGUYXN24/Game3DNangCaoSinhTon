@@ -7,7 +7,7 @@ using System.Collections;
 public class MetalAxe : MonoBehaviour
 {
     [Header("Axe Settings")]
-    public Vector3 swingRotation = new Vector3(-90f, 0f, 0f); // góc bổ
+    public Vector3 swingRotation = new Vector3(-90f, 0f, 0f);
     public float swingDuration = 0.1f;
 
     [Header("Inventory")]
@@ -21,12 +21,19 @@ public class MetalAxe : MonoBehaviour
     public Sprite woodIcon;
     public CanvasGroup popupGroup;
 
+    [Header("Raycast Reference")]
+    public Raycast raycastScript;
+
+    [Header("Collider")]
+    public Collider axeCollider; // ← Gắn collider của MetalAxe vào đây
+
     private Quaternion originalRotation;
     private bool isSwinging = false;
 
     private void Start()
     {
         originalRotation = transform.localRotation;
+        if (axeCollider) axeCollider.enabled = false;
     }
 
     private void Update()
@@ -40,6 +47,7 @@ public class MetalAxe : MonoBehaviour
     private IEnumerator SwingAxe()
     {
         isSwinging = true;
+        if (axeCollider) axeCollider.enabled = true;
 
         Quaternion targetRotation = Quaternion.Euler(swingRotation);
         float elapsed = 0f;
@@ -59,16 +67,19 @@ public class MetalAxe : MonoBehaviour
             yield return null;
         }
 
+        if (axeCollider) axeCollider.enabled = false;
         isSwinging = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Tree") && other.gameObject.layer == LayerMask.NameToLayer("Tree"))
+        if (other.CompareTag("Tree"))
         {
             int amount = Random.Range(1, 11);
             inventory.AddItem(woodItemType, amount);
             ShowPopup(amount);
+
+            if (raycastScript) raycastScript.UpdateWoodUI();
 
             TreeHitCounter treeHit = other.GetComponent<TreeHitCounter>();
             if (treeHit == null)
@@ -86,7 +97,6 @@ public class MetalAxe : MonoBehaviour
     private void ShowPopup(int amount)
     {
         popupUI.SetActive(true);
-
         popupIcon.sprite = woodIcon;
         popupText.text = "+" + amount;
 

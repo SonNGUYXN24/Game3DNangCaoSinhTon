@@ -9,9 +9,9 @@ public class Raycast : MonoBehaviour
 
     [Header("UI Elements")]
     [SerializeField] private GameObject pickupPrompt;
-    [SerializeField] private TextMeshProUGUI grassCountText;
-    [SerializeField] private TextMeshProUGUI rocksCountText;
-    [SerializeField] private TextMeshProUGUI treesCountText;
+    [SerializeField] public TextMeshProUGUI grassCountText;
+    public TextMeshProUGUI rocksCountText;
+    public TextMeshProUGUI treesCountText;
     [SerializeField] private GameObject crosshair; // hình ảnh hồng tâm, đặt giữa màn hình
 
     [Header("Inventory System")]
@@ -80,4 +80,17 @@ public class Raycast : MonoBehaviour
         var item = inventory.items.Find(i => i.itemType == type);
         return item != null ? item.quantity : 0;
     }
+    public void UpdateRockUI()
+    {
+        var item = inventory.items.Find(i => i.itemType == ItemData.ItemType.Rock);
+        int quantity = item != null ? item.quantity : 0;
+        rocksCountText.text = "Rocks: " + quantity;
+    }
+    public void UpdateWoodUI()
+{
+    var item = inventory.items.Find(i => i.itemType == ItemData.ItemType.Wood);
+    int quantity = item != null ? item.quantity : 0;
+    treesCountText.text = "Trees: " + quantity;
+}
+
 }
