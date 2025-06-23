@@ -84,7 +84,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -517456624681421503}
-    m_Position: {x: 30, y: 290, z: 0}
+    m_Position: {x: 30, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9117132995212053736}
     m_Position: {x: 520, y: -540, z: 0}
@@ -96,10 +96,10 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: -290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1516350055620360501}
-    m_Position: {x: 520, y: 310, z: 0}
+    m_Position: {x: 520, y: 160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6275484210314251450}
-    m_Position: {x: 520, y: 360, z: 0}
+    m_Position: {x: 740, y: 440, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3232128084696054918}
     m_Position: {x: 520, y: -90, z: 0}
@@ -108,34 +108,34 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1355675424477613586}
-    m_Position: {x: 520, y: 410, z: 0}
+    m_Position: {x: 740, y: 490, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5687998148164550873}
-    m_Position: {x: 520, y: 460, z: 0}
+    m_Position: {x: 740, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4171806372878265382}
-    m_Position: {x: 520, y: 560, z: 0}
+    m_Position: {x: 740, y: 590, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5695310403801427062}
-    m_Position: {x: 520, y: 760, z: 0}
+    m_Position: {x: 110, y: 630, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2623328637644902569}
-    m_Position: {x: 520, y: 810, z: 0}
+    m_Position: {x: 500, y: 810, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5823023316003678689}
-    m_Position: {x: 520, y: 1210, z: 0}
+    m_Position: {x: 440, y: 1090, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7996021536020428740}
-    m_Position: {x: 520, y: 1010, z: 0}
+    m_Position: {x: 440, y: 890, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4445768115607419177}
-    m_Position: {x: 520, y: 1060, z: 0}
+    m_Position: {x: 440, y: 940, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6675135173472620227}
-    m_Position: {x: 520, y: 1110, z: 0}
+    m_Position: {x: 440, y: 990, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5991896809472266830}
-    m_Position: {x: 520, y: 1160, z: 0}
+    m_Position: {x: 440, y: 1040, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 4290792972570245180}
@@ -158,7 +158,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 250, y: 170, z: 0}
+  m_AnyStatePosition: {x: 260, y: 180, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 50, y: 70, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -529,7 +529,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Combat Idle
     m_Type: 4
@@ -541,7 +541,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Run Left
     m_Type: 4
@@ -565,13 +565,13 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Run Backward Right
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Strafe Right
     m_Type: 4
@@ -583,7 +583,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: WalkBackward
     m_Type: 4
@@ -643,7 +643,7 @@ AnimatorController:
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Attack2
     m_Type: 9
