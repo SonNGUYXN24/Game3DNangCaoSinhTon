@@ -26,6 +26,8 @@ public class PickaxeController : MonoBehaviour
 
     [Header("Collider")]
     public Collider pickaxeCollider; // ← Gắn collider của pickaxe vào đây
+    [SerializeField] private StartusPlayer playerStats; // ← THÊM BIẾN NÀY
+
 
     private Quaternion originalRotation;
     private bool isSwinging = false;
@@ -78,7 +80,7 @@ public class PickaxeController : MonoBehaviour
             int amount = Random.Range(1, 11);
             inventory.AddItem(rockItemType, amount);
             ShowPopup(amount);
-
+             playerStats.GainExp(200);
             if (raycastScript) raycastScript.UpdateRockUI();
 
             RockHitCounter rockHit = other.GetComponent<RockHitCounter>();

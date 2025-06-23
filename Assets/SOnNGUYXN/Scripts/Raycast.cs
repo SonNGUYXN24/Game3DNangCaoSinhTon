@@ -16,6 +16,8 @@ public class Raycast : MonoBehaviour
 
     [Header("Inventory System")]
     [SerializeField] private Inventory inventory;
+    [SerializeField] private StartusPlayer playerStats; // ← THÊM BIẾN NÀY
+
 
     private Transform currentTarget;
     private int currentLayerIndex = -1;
@@ -61,16 +63,19 @@ public class Raycast : MonoBehaviour
             case 0: // Grass
                 inventory.AddItem(ItemData.ItemType.Grass, 1);
                 grassCountText.text = "Grass: " + GetItemQuantity(ItemData.ItemType.Grass);
+                playerStats.GainExp(100); // ← CỘNG EXP
                 break;
 
             case 1: // Rocks
                 inventory.AddItem(ItemData.ItemType.Rock, 1);
                 rocksCountText.text = "Rocks: " + GetItemQuantity(ItemData.ItemType.Rock);
+                playerStats.GainExp(200); // ← CỘNG EXP
                 break;
 
             case 2: // Trees
                 inventory.AddItem(ItemData.ItemType.Wood, 1);
                 treesCountText.text = "Trees: " + GetItemQuantity(ItemData.ItemType.Wood);
+                playerStats.GainExp(300); // ← CỘNG EXP
                 break;
         }
     }

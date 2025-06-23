@@ -26,6 +26,8 @@ public class MetalAxe : MonoBehaviour
 
     [Header("Collider")]
     public Collider axeCollider; // ← Gắn collider của MetalAxe vào đây
+    [SerializeField] private StartusPlayer playerStats; // ← THÊM BIẾN NÀY
+
 
     private Quaternion originalRotation;
     private bool isSwinging = false;
@@ -78,8 +80,8 @@ public class MetalAxe : MonoBehaviour
             int amount = Random.Range(1, 11);
             inventory.AddItem(woodItemType, amount);
             ShowPopup(amount);
-
-            if (raycastScript) raycastScript.UpdateWoodUI();
+            playerStats.GainExp(300);
+            if (raycastScript) raycastScript.UpdateWoodUI();    
 
             TreeHitCounter treeHit = other.GetComponent<TreeHitCounter>();
             if (treeHit == null)
