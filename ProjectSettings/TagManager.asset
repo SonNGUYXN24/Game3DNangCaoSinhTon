@@ -16,6 +16,7 @@ TagManager:
   - RockPickup
   - Fire
   - SavePromptText
+  - Enemies
   layers:
   - Default
   - TransparentFX

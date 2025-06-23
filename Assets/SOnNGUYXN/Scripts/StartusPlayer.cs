@@ -20,6 +20,9 @@ public class StartusPlayer : MonoBehaviour
     public int expToNextLevel = 1000;
     public int maxLevel = 100;
 
+    [Header("Checkpoint")]
+    public Transform checkpointPoint; // ← Thêm điểm checkpoint tại đây
+
     private float staminaRegenDelayTimer = 0f;
     private float staminaRegenTimer = 0f;
     private float hpRegenTimer = 0f;
@@ -104,13 +107,18 @@ public class StartusPlayer : MonoBehaviour
     {
         currentHP = Mathf.Clamp(currentHP + amount, 0, maxHP);
         UpdateUI();
+
+        if (currentHP <= 0)
+        {
+            Debug.Log("💀 Player chết → trở về checkpoint");
+            RespawnAtCheckpoint();
+        }
     }
 
     public void ChangeStamina(float amount)
     {
         currentStamina = Mathf.Clamp(currentStamina + amount, 0, maxStamina);
 
-        // Đánh dấu đang tụt để reset delay hồi
         if (amount < 0)
         {
             isStaminaDraining = true;
@@ -131,6 +139,31 @@ public class StartusPlayer : MonoBehaviour
         expSlider.value = currentExp;
 
         levelText.text = level >= maxLevel ? "Level Max" : $"Level {level}";
+    }
+
+    private void RespawnAtCheckpoint()
+    {
+        if (checkpointPoint != null)
+        {
+            transform.position = checkpointPoint.position;
+            transform.rotation = checkpointPoint.rotation;
+            currentHP = maxHP; // hồi đầy máu
+            currentStamina = maxStamina;
+            UpdateUI();
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ Chưa gán checkpointPoint trong Inspector.");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemies"))
+        {
+            ChangeHP(-20);
+            Debug.Log("Player bị đụng quái: -20 HP");
+        }
     }
 
     public float CurrentStamina => currentStamina;

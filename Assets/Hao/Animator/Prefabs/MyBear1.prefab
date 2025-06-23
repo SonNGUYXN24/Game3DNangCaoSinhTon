@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 5038999318630593431}
   m_Layer: 0
   m_Name: HitBox R
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 8799198281616478668}
   m_Layer: 0
   m_Name: HitBox L
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 8680342591006100616}
   m_Layer: 0
   m_Name: HeadHitBox
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2431,7 +2431,7 @@ GameObject:
   - component: {fileID: 8246678209685539377}
   m_Layer: 0
   m_Name: Armature
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2657,11 +2657,15 @@ MonoBehaviour:
   bearType: 0
   player: {fileID: 0}
   animator: {fileID: 3561413667622999750}
-  characterController: {fileID: 0}
+  characterController: {fileID: 1422767888298218125}
   khoangcachphathien: 10
   attackRange: 3
   patrolPoints: []
   patrolSpeed: 2
+  maxHP: 200
+  currentHP: 200
+  regenDelay: 5
+  regenRate: 2
 --- !u!95 &3561413667622999750
 Animator:
   serializedVersion: 7
