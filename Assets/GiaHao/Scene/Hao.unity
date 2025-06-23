@@ -119,6 +119,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &5007084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 274.40494
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 53.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 467.24896
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.2055208
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9786528
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -203.71999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628028201894517114, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216091181654146003, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2077695445}
+    - target: {fileID: 8904401843928924742, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
+      propertyPath: m_Name
+      value: MyBear1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 247aed26ca86e0e47bd097bb3d32be33, type: 3}
 --- !u!1 &61475459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,15 +1159,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415119155074357024, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 745.53
+      value: 265.81235
       objectReference: {fileID: 0}
     - target: {fileID: 8415119155074357024, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 65.15
+      value: 58.02181
       objectReference: {fileID: 0}
     - target: {fileID: 8415119155074357024, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 354.69
+      value: 486.39474
       objectReference: {fileID: 0}
     - target: {fileID: 8415119155074357024, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1138,6 +1199,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9188278811865288090, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188278811865288090, guid: 45ba5550a3e809a4fbcb9111cbffedf9, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1285,6 +1350,8 @@ MonoBehaviour:
   controller: {fileID: 2077695441}
   cameraHolder: {fileID: 1143401081}
   cameraTransform: {fileID: 61475460}
+  playerAnimatorController: {fileID: 0}
+  playerStats: {fileID: 0}
   mouseSensitivity: 0.5
   tiltFrequency: 5
   tiltAmplitude: 1
@@ -1315,3 +1382,4 @@ SceneRoots:
   - {fileID: 1962489252}
   - {fileID: 1965980445}
   - {fileID: 1977311693}
+  - {fileID: 5007084}
